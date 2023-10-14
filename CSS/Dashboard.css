@@ -1,0 +1,14 @@
+.button-0{
+    height: 25vh;
+    width: 15.9vw;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.right{
+    height: 120vh;
+    min-width: calc(100vw - 16vw - 2.3vw);
+    background-color: rgb(235, 205, 168);
+    border: 1px solid rgb(238, 240, 238);
+    margin: -1px 1px 0px 16.8vw;
+
+}

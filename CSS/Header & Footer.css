@@ -1,0 +1,130 @@
+
+:root{
+    --main-color:rgb(0, 102, 109);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: var(--main-color);
+    position:fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+}
+.logo img{
+    width: 150px;
+    height: 45px;
+    padding: 20px 60px 0px 12px;
+}
+.logout{
+    display: flex;
+    text-align: center;
+    padding: 25px 20px 0px 40px;
+}
+.button{
+    
+    background: rgb(236, 154, 2);
+    height: 30px;
+    width: 100px;
+    border: 0.5px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.button a{
+
+    color: azure;
+    text-decoration: none;
+}
+
+.button:hover{
+    width: 102px;
+    height: 35px;
+    font-weight: bold;
+}
+
+ nav ul{
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+ }
+ nav ul li{
+    margin-left: 35px;
+    list-style: none;
+    padding: 0px 15px;
+ }
+ nav ul li a{
+    color: rgb(231, 231, 231);;
+    text-decoration: none;
+    font-size: 22px;
+ }
+ nav ul li a:hover{
+    color: rgb(255, 251, 0);
+    font-weight: bold;
+ }
+
+
+ 
+ .contact{
+    height: 6vh;
+    width: auto;
+    background: rgb(241, 241, 241);
+    display: flex;
+    
+ }
+
+ .contact img{
+   padding: 5px 0px 10px 10px;
+ }
+
+ .contact p{
+    display: flex;
+    justify-content: center;
+     height: 30px;
+    width: auto;
+    margin: auto;
+    padding: 10px 0px 10px 10px;
+ }
+ .sign{
+    display: flex;
+    justify-content: end;
+    padding: 0px 9px 0px 0px;
+ }
+ .sign img{
+    height: 35px;
+    width: 180px;
+    
+ }
+.copyright{
+    height: 4vh;
+    width: auto;
+    color: beige;
+    background: var(--main-color);
+    padding-top: 4px;
+    text-align: center;
+}
+.copyright p{
+    padding-left: 37%;
+}
+
+ footer{
+    position: sticky;
+    overflow: hidden;
+ }
+
+ 

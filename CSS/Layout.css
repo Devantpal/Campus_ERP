@@ -1,0 +1,82 @@
+:root{
+    --main-color:rgb(0, 102, 109);
+
+}
+main{
+    padding-top: 14vh;
+    color: rgb(243, 239, 239);
+    background: #f5f4f4;
+}
+div{
+    display: flex;
+
+}
+
+.left{
+    position: fixed;
+    height: 86vh;
+    width: 16vw;
+    color: aliceblue;
+    background-color: var(--main-color);
+    margin: -2px 0px 0px 1px;
+    padding: 2px 2px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+.button1{
+    height: 35px;
+    width: 15.8vw;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer; 
+    background:rgb(92, 66, 66);
+    font-family: Times New Roman;
+}
+.button1 a{
+    color: azure;
+    text-decoration: none;
+    
+}
+.button1 a:hover{
+    color:rgb(255, 251, 0);
+    font-weight: bold;
+}
+.disclamer{
+    margin-top: 14vh;
+    width: 15.8vw;
+}
+.disclamer p{
+    font-size: 12px;
+}
+
+.container{
+    min-height: calc(100vh - 16vw - 4vw);
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    background-color: rgb(236, 234, 234);
+    border-radius: 7px;
+}
+.card h2{
+    margin: 20px 0px;
+}
+.card img{
+    width: 145px;
+    height: 90px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
